@@ -205,6 +205,12 @@ standard_portal_menu_items = [
 ]
 
 fixtures = [
+	{
+    "dt": "Custom Field",
+    "filters": [
+        ["module", "=", "Non Profit"]
+    ]
+    },
     {
         "doctype": "Property Setter",
         "filters": [
