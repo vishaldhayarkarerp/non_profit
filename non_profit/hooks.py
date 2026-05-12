@@ -213,4 +213,3 @@ fixtures = [
     }
 ]
 
-after_migrate = ["frappe.custom.doctype.customize_form.customize_form.sync_customizations"]
